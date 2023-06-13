@@ -1,4 +1,4 @@
-package com.mrgi-portal.mrgi-gradle-scaffold;
+package com.mrgi_portal.gradle_scaffold;
 
 import static org.junit.Assert.assertEquals;
 
