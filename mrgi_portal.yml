@@ -16,5 +16,5 @@ steps:
     type: build
     image_name: mrgi-gradle-scaffold
     working_directory: ./
-    tag: 'multi-stage'
+    tag: 'multi-stage-gradle'
     dockerfile: Dockerfile
