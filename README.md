@@ -8,20 +8,20 @@ It is compiled using MRGI-Portal.
 To compile and package using Docker multi-stage builds
 
 ```bash
-docker build . -t my-app
+docker build . -t this-is-a-test
 ```
 
 ## Create a Docker image packaging an existing jar
 
 ```bash
 ./gradlew build
-docker build . -t my-app -f Dockerfile.only-package
+docker build . -t this-is-a-pre-packaged-test -f Dockerfile.only-package
 ```
 
 ## To run the docker image
 
 ```bash
-docker run -p 8080:8080 my-app
+docker run -p 8080:8080 this-is-a-test
 ```
 
 And then visit http://localhost:8080 in your browser.
@@ -30,3 +30,6 @@ And then visit http://localhost:8080 in your browser.
 
 More details can be found in [Athernex documentation](https://athernex.com/documentation/index/)
 
+Notes {
+    State: 200
+}
