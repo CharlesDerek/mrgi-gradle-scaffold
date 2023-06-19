@@ -1,3 +1,6 @@
+
+.env
+
 HELP.md
 .gradle
 /build/
@@ -28,3 +31,6 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+### .bks ###
+*.bks
